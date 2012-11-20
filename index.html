@@ -1,17 +1,52 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmnls:"http:/www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Masa Corporal</title>
-	<script type="text/javascript" src="funciones.js"></script>
 </head>
 <body>
-	<label>Ingrese su peso:</label>
-	<input type="text" id="peso"/>
-	<br/>
-	<br/>
-	<label>Ingrese su estatura:</label>
-	<input type="text" id="estatura"/>
-	<button onclick="calcular()" >Calcular</button>
+	<table >
+	<tbody>
+	<tr>
+	<td>Nombre:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Login:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Contraseña:</td>
+	<td><input type="password"></td>
+	</tr>
+	<tr>
+	<td>SEXO:</td>
+	<td>Masculino<input type="radio" name="sexo">
+	Femenino<input type="radio" name="sexo">
+	Indefinido<input type="radio" name="sexo"></td>
+	</tr>
+	<tr>
+	<td>Gustos:</td>
+	<td>Futbol<input type="checkbox" name="Gustos">
+	Baloncesto<input type="checkbox" name="Gustos">
+	Boleiball<input type="checkbox" name="Gustos"></td>
+	</tr>
+	<tr>
+	<td>Opinion:<td>
+	<textarea cols=50 rows=10>Deje una breve opinion:</textarea>
+	</tr>
+	<tr>
+	<td>Ciudad:</td>
+	<td><select id ="opciones">
+		<option selected>Seleccione</option>
+		<option>Manizales</option>
+		<option>Medellin</option>
+		<option>Bogota</option>
+		<option>Aremenia</option>
+		<option>Cali</option>
+	</select></td>
+	</tr>
+	</tbody>
+	</table>
+	</tr>
 </body>
 </html>
